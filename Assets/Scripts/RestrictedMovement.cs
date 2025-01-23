@@ -10,7 +10,7 @@ public class RestrictedMovement : MonoBehaviour
     public float maxY = 3f;
 
     private Rigidbody2D _rb;
-
+     
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
